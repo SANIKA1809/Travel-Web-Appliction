@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+
+        .location-section {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .location-detail {
+            margin-top: 20px;
+        }
+
+        .location-img img {
+            width: 100%;
+            height: auto;
+        }
+
+        .locations {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .location-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .col-content {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .col-content img {
+            width: 100%;
+            height: auto;
+        }
+
+        .package {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .package-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>Travel Destinations - Japan</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="">Explore world</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Location</a>
+                <div class="dropdown-content">
+                    <a href="#destination1">Japan</a>
+                    <a href="#destination2">Destination 2</a>
+                    <a href="#destination3">Destination 3</a>
+                    <a href="#destination4">Destination 4</a>
+                </div>
+            </li>
+            <li><a href="#itinerary">Itinerary</a></li>
+            <li><a href="/templates/Inquire.html">Inquire</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="/static/JAPAN.jpeg" alt="Japan Image">
+    </div>
+
+    <section class="location-section">
+        <div class="location-heading">
+            <h1>Discover The <span>Land of the Rising Sun - Japan</span></h1>
+        </div>
+        <div class="location-detail" id="japan">
+            <h1>Japan</h1>
+            <p>Japan, the Land of the Rising Sun, is a captivating travel destination in East Asia. From the bustling metropolis of Tokyo to the serene temples of Kyoto, Japan offers a unique blend of tradition and modernity. Explore the rich cultural heritage, exquisite cuisine, and breathtaking natural beauty of this island nation. Whether you're interested in cherry blossoms in spring, the vibrant fall foliage, or the tranquil gardens, Japan has something for every season.</p>
+            <div class="location-img">
+                <img src="/static/JAPAN1.jpeg" alt="Japan Image 1">
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations -->
+
+    <section class="locations" id="locations">
+        <div class="text">
+            <h2>Essentials in Japan</h2>
+        </div>
+        <div class="package-title">
+            <h2>STAY</h2>
+        </div>
+
+        <div class="location-content">
+
+            <a href="#japan-hotel1" target="_blank" class="col-content">
+                <img src="/static/JAPAN8.jpeg" alt="Tokyo Palace Hotel">
+                <h5>Tokyo Palace Hotel</h5>
+                <p>Tokyo</p>
+            </a>
+
+            <a href="#japan-hotel2" target="_blank" class="col-content">
+                <img src="/static/JAPAN2.jpeg" alt="Kyoto Garden Resort">
+                <h5>Kyoto Garden Resort</h5>
+                <p>Kyoto</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="locations" id="locations">
+        <div class="package-title">
+            <h2>EAT</h2>
+        </div>
+
+        <div class="location-content">
+
+            <a href="#japan-restaurant1" target="_blank" class="col-content">
+                <img src="/static/japan3.jpeg" alt="Sushi Delight Restaurant">
+                <h5>Sushi Delight Restaurant</h5>
+                <p>Tokyo</p>
+            </a>
+
+            <a href="#japan-restaurant2" target="_blank" class="col-content">
+                <img src="/static/japan4.jpeg" alt="Kyoto Zen Garden Cafe">
+                <h5>Kyoto Zen Garden Cafe</h5>
+                <p>Kyoto</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="locations" id="locations">
+        <div class="package-title">
+            <h2>Things to do</h2>
+        </div>
+
+        <div class="location-content">
+
+            <a href="#japan-attraction1" target="_blank" class="col-content">
+                <img src="/static/japan5.jpeg" alt="Tokyo Disneyland">
+                <h5>Tokyo Disneyland</h5>
+                <p>Tokyo</p>
+            </a>
+
+            <a href="#japan-attraction2" target="_blank" class="col-content">
+                <img src="/static/JAPAN8.jpeg" alt="Kinkaku-ji Temple">
+                <h5>Kinkaku-ji Temple</h5>
+                <p>Kyoto</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="package" id="package">
+        <div class="package-title">
+            <h2>Packages</h2>
+        </div>
+
+        <div class="package-content">
+
+            <div class="box">
+                <div class="image">
+                    <img src="placeholder_image_url" alt="Package Image">
+                    <h3>Rs.9,
